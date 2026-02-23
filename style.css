@@ -1,0 +1,38 @@
+.Conteudo{
+padding-left: 35%;
+padding-top: 7%;
+}
+
+.Titulo{
+font-size: 50px;
+padding-left: 115px;
+}
+
+.Cadastros{
+padding-left: 90px;
+font-size: 30px;
+}
+
+body{
+background-color: rgb(255, 255, 255);
+}
+
+.Email{
+font-size: 150%;
+margin-left: 55px;
+padding-right: 30px;
+margin-bottom: 10px;
+}
+
+.Senha{
+font-size: 150%;
+margin-left: 55px;
+padding-right: 30px;
+margin-bottom: 10px;
+}
+
+button{
+font-size: 150%;
+margin-left: 55px;
+padding-right: 212px;
+}
