@@ -7,12 +7,20 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
+        <div class="container">
             <h1 class="Titulo">Cadastro</h1>
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Senha">
-            <button>Cadastrar</button>
-            <h1 class="Emails">Alunos Cadastrados</h1>
+            
+            <form id="form">
+                <input class="Email" type="text" placeholder="Email">
+                <input class="Senha" type="number" placeholder="Senha">
+                <button>Cadastrar</button>
+            </form>
+
+            <h2>Alunos Cadastrados</h2>
+            <ul id="lista">
+                <li>João - 20 anos</li>
+                <li>Ana - 22 anos</li>
+            </ul>
         </div>
     </body>
 </html>
