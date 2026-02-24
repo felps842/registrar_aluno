@@ -1,7 +1,36 @@
+body{
+background-color: darkgrey;
+}
+
 .container{
 width: 350px;
-background-color: rgb(187, 184, 184);
+background-color: rgb(255, 255, 255);
 padding: 20px;
 margin:  120px auto;
-border-radius: 5%;
+border-radius: 7%;
+}
+
+.Titulo{
+text-align: center;
+}
+
+input{
+width: 95%;
+padding: 3px;
+margin: 3px;
+align-items: center;
+}
+
+button{
+width: 98%;
+align-self: center;
+padding: 3px;
+margin: 3px;
+}
+button:hover{
+background-color: rgb(177, 177, 177);
+}
+
+.cadastros{
+text-align: center;
 }
