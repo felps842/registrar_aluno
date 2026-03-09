@@ -26,5 +26,5 @@ form.addEventListener("submit", function(event){
 
     alert("Cadastro criado!!!");
 
-    window.location.href = "login.html"
+    window.location.href = "/login.html"
 });
