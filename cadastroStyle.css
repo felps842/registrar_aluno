@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#446347, #0b2910);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: aliceblue;
+    margin-right: 430px;
+    font-size: 20px;
+}
+
+.usuario{
+    margin-left: 100px;
+}
+
+.email{
+    margin-right: 440px;
+}
+
+.confirm{
+    margin-left: 120px;
+}
+
+input{
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    color: aliceblue;
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+    font-size: 18px;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+button{
+    margin-top: 40px;
+    width: 500px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: #446347;
+    font-size: 18px;
+}
