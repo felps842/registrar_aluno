@@ -28,5 +28,5 @@ form.addEventListener("submit", function(event){
         return
     }
 
-    window.location.href = "/tarefas.html"
+    window.location.href = "../HTML/tarefas.html"
 });

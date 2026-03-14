@@ -5,11 +5,11 @@ const buttonCadastro = document.getElementById("cadastro");
 buttonLogin.addEventListener("click", function(event){
     event.preventDefault();
 
-    window.location.href = "/login.html"
+    window.location.href = "../HTML/login.html"
 });
 
 buttonCadastro.addEventListener("click", function(event){
     event.preventDefault();
 
-    window.location.href = "/cadastro.html"
+    window.location.href = "../HTML/cadastro.html"
 });
